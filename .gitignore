@@ -26,3 +26,5 @@ runserver
 logs
 
 common/src/generated/resources/.cache
+
+.vscode
