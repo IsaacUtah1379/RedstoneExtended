@@ -2,7 +2,7 @@ package isaacutah1379.mods.redstoneextended.api.client;
 
 import java.lang.reflect.InvocationTargetException;
 
-public class YourModClientAPI {
+public class RedstoneExtendedClientAPI {
 
     private static final InternalClientMethods __internalMethods;
 

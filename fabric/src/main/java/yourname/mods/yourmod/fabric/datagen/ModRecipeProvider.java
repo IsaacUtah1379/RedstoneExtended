@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.world.item.Items;
-import isaacutah1379.mods.redstoneextended.YourMod;
+import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 import isaacutah1379.mods.redstoneextended.block.ModBlocks;
 import isaacutah1379.mods.redstoneextended.item.ModItems;
 

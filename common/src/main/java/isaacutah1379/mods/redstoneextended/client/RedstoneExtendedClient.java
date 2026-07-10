@@ -1,6 +1,6 @@
 package isaacutah1379.mods.redstoneextended.client;
 
-public class YourModClient {
+public class RedstoneExtendedClient {
     public static void initialize() {
         ModKeyMappings.initialize();
     }

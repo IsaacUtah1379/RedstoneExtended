@@ -4,9 +4,9 @@ import com.mojang.blaze3d.platform.InputConstants;
 import net.blay09.mods.kuma.api.InputBinding;
 import net.blay09.mods.kuma.api.Kuma;
 import net.blay09.mods.kuma.api.ManagedKeyMapping;
-import isaacutah1379.mods.redstoneextended.YourMod;
+import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 
-import static isaacutah1379.mods.redstoneextended.YourMod.id;
+import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
 public class ModKeyMappings {
 

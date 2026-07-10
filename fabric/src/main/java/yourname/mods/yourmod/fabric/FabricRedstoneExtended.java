@@ -5,7 +5,7 @@ import net.blay09.mods.balm.api.Balm;
 import net.blay09.mods.balm.api.EmptyLoadContext;
 import net.fabricmc.api.ModInitializer;
 
-public class FabricYourMod implements ModInitializer {
+public class FabricRedstoneExtended implements ModInitializer {
     @Override
     public void onInitialize() {
         Balm.initializeMod(RedstoneExtended.MOD_ID, EmptyLoadContext.INSTANCE, RedstoneExtended::initialize);

@@ -5,7 +5,7 @@ import net.blay09.mods.balm.api.item.BalmItems;
 import net.minecraft.world.level.block.Block;
 
 import static net.blay09.mods.balm.api.block.BalmBlocks.blockProperties;
-import static isaacutah1379.mods.redstoneextended.YourMod.id;
+import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
 public class ModBlocks {
 
