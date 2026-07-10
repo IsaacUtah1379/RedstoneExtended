@@ -1,4 +1,4 @@
-package yourname.mods.yourmod.api;
+package isaacutah1379.mods.redstoneextended.api;
 
 public interface InternalMethods {
 }

@@ -1,4 +1,4 @@
-package yourname.mods.yourmod.fabric;
+package isaacutah1379.mods.redstoneextended.fabric;
 
 import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 import net.blay09.mods.balm.api.Balm;

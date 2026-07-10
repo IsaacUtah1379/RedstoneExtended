@@ -1,7 +1,7 @@
-package yourname.mods.yourmod.client;
+package isaacutah1379.mods.redstoneextended.client;
 
 
-import yourname.mods.yourmod.api.client.InternalClientMethods;
+import isaacutah1379.mods.redstoneextended.api.client.InternalClientMethods;
 
 public class InternalClientMethodsImpl implements InternalClientMethods {
 }

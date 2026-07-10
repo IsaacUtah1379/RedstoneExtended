@@ -1,14 +1,14 @@
-package yourname.mods.yourmod.item;
+package isaacutah1379.mods.redstoneextended.item;
 
 import net.blay09.mods.balm.api.DeferredObject;
 import net.blay09.mods.balm.api.item.BalmItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import yourname.mods.yourmod.YourMod;
+import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 
 import static net.blay09.mods.balm.api.item.BalmItems.itemProperties;
-import static yourname.mods.yourmod.YourMod.id;
+import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
 public class ModItems {
     public static DeferredObject<CreativeModeTab> creativeModeTab;

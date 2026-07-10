@@ -1,11 +1,11 @@
-package yourname.mods.yourmod.block;
+package isaacutah1379.mods.redstoneextended.block;
 
 import net.blay09.mods.balm.api.block.BalmBlocks;
 import net.blay09.mods.balm.api.item.BalmItems;
 import net.minecraft.world.level.block.Block;
 
 import static net.blay09.mods.balm.api.block.BalmBlocks.blockProperties;
-import static yourname.mods.yourmod.YourMod.id;
+import static isaacutah1379.mods.redstoneextended.YourMod.id;
 
 public class ModBlocks {
 

@@ -1,4 +1,4 @@
-package yourname.mods.yourmod.client;
+package isaacutah1379.mods.redstoneextended.client;
 
 public class YourModClient {
     public static void initialize() {

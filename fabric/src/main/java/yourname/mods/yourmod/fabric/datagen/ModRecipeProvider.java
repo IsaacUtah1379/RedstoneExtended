@@ -1,13 +1,13 @@
-package yourname.mods.yourmod.fabric.datagen;
+package isaacutah1379.mods.redstoneextended.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.world.item.Items;
-import yourname.mods.yourmod.YourMod;
-import yourname.mods.yourmod.block.ModBlocks;
-import yourname.mods.yourmod.item.ModItems;
+import isaacutah1379.mods.redstoneextended.YourMod;
+import isaacutah1379.mods.redstoneextended.block.ModBlocks;
+import isaacutah1379.mods.redstoneextended.item.ModItems;
 
 import java.util.function.Consumer;
 

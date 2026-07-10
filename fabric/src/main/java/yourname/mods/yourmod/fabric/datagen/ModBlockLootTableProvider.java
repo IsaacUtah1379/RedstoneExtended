@@ -1,8 +1,8 @@
-package yourname.mods.yourmod.fabric.datagen;
+package isaacutah1379.mods.redstoneextended.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import yourname.mods.yourmod.block.ModBlocks;
+import isaacutah1379.mods.redstoneextended.block.ModBlocks;
 
 public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
     protected ModBlockLootTableProvider(FabricDataOutput dataOutput) {

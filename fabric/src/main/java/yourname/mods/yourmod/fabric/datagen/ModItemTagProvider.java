@@ -1,12 +1,12 @@
-package yourname.mods.yourmod.fabric.datagen;
+package isaacutah1379.mods.redstoneextended.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
-import yourname.mods.yourmod.item.ModItems;
-import yourname.mods.yourmod.tag.ModItemTags;
+import isaacutah1379.mods.redstoneextended.item.ModItems;
+import isaacutah1379.mods.redstoneextended.tag.ModItemTags;
 
 import java.util.concurrent.CompletableFuture;
 

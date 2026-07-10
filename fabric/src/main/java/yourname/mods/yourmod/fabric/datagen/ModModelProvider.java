@@ -1,12 +1,12 @@
-package yourname.mods.yourmod.fabric.datagen;
+package isaacutah1379.mods.redstoneextended.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.data.models.BlockModelGenerators;
 import net.minecraft.data.models.ItemModelGenerators;
 import net.minecraft.data.models.model.*;
-import yourname.mods.yourmod.block.ModBlocks;
-import yourname.mods.yourmod.item.ModItems;
+import isaacutah1379.mods.redstoneextended.block.ModBlocks;
+import isaacutah1379.mods.redstoneextended.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {

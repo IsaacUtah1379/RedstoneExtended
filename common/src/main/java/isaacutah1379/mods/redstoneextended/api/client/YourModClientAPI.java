@@ -1,4 +1,4 @@
-package yourname.mods.yourmod.api.client;
+package isaacutah1379.mods.redstoneextended.api.client;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -8,7 +8,7 @@ public class YourModClientAPI {
 
     static {
         try {
-            __internalMethods = (InternalClientMethods) Class.forName("yourname.mods.yourmod.client.InternalClientMethodsImpl").getConstructor().newInstance();
+            __internalMethods = (InternalClientMethods) Class.forName("isaacutah1379.mods.redstoneextended.client.InternalClientMethodsImpl").getConstructor().newInstance();
         } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

@@ -1,12 +1,12 @@
-package yourname.mods.yourmod.client;
+package isaacutah1379.mods.redstoneextended.client;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import net.blay09.mods.kuma.api.InputBinding;
 import net.blay09.mods.kuma.api.Kuma;
 import net.blay09.mods.kuma.api.ManagedKeyMapping;
-import yourname.mods.yourmod.YourMod;
+import isaacutah1379.mods.redstoneextended.YourMod;
 
-import static yourname.mods.yourmod.YourMod.id;
+import static isaacutah1379.mods.redstoneextended.YourMod.id;
 
 public class ModKeyMappings {
 

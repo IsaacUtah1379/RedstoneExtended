@@ -13,7 +13,7 @@ public class YourModAPI {
 
     static {
         try {
-            __internalMethods = (InternalMethods) Class.forName("yourname.mods.yourmod.InternalMethodsImpl").getConstructor().newInstance();
+            __internalMethods = (InternalMethods) Class.forName("isaacutah1379.mods.redstoneextended.InternalMethodsImpl").getConstructor().newInstance();
         } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

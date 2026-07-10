@@ -1,4 +1,4 @@
-package yourname.mods.yourmod.forge;
+package isaacutah1379.mods.redstoneextended.forge;
 
 import net.blay09.mods.balm.api.Balm;
 import net.blay09.mods.balm.api.EmptyLoadContext;
@@ -7,8 +7,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import yourname.mods.yourmod.YourMod;
-import yourname.mods.yourmod.client.YourModClient;
+import isaacutah1379.mods.redstoneextended.YourMod;
+import isaacutah1379.mods.redstoneextended.client.YourModClient;
 
 @Mod(YourMod.MOD_ID)
 public class ForgeYourMod {

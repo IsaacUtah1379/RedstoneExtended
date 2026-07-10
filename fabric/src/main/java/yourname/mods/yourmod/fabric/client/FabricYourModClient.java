@@ -1,10 +1,10 @@
-package yourname.mods.yourmod.fabric.client;
+package isaacutah1379.mods.redstoneextended.fabric.client;
 
 import net.blay09.mods.balm.api.EmptyLoadContext;
 import net.blay09.mods.balm.api.client.BalmClient;
 import net.fabricmc.api.ClientModInitializer;
-import yourname.mods.yourmod.YourMod;
-import yourname.mods.yourmod.client.YourModClient;
+import isaacutah1379.mods.redstoneextended.YourMod;
+import isaacutah1379.mods.redstoneextended.client.YourModClient;
 
 public class FabricYourModClient implements ClientModInitializer {
     @Override
