@@ -1,6 +1,10 @@
-package yourname.mods.yourmod.api;
+package isaacutah1379.mods.redstoneextended.api;
 
 import java.lang.reflect.InvocationTargetException;
+
+import isaacutah1379.mods.redstoneextended.api.InternalMethods;
+
+import isaacutah1379.mods.redstoneextended.api.InternalMethods;
 
 public class YourModAPI {
     public static final String MOD_ID = "yourmod";

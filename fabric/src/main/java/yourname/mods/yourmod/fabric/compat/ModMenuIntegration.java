@@ -11,6 +11,6 @@ import yourname.mods.yourmod.YourModConfig;
 public class ModMenuIntegration implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return ModMenuUtils.getConfigScreen(YourModConfig.class);
+        return ModMenuUtils.getConfigScreen(RedstoneExtendedConfig.class);
     }
 }

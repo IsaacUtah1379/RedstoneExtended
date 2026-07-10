@@ -16,7 +16,7 @@ public class ModKeyMappings {
         yourKey = Kuma.createKeyMapping(id("your_key"))
                 .withDefault(InputBinding.key(InputConstants.KEY_B))
                 .handleScreenInput(event -> {
-                    YourMod.logger.info("B was pressed - " + YourMod.MOD_ID);
+                    RedstoneExtended.logger.info("B was pressed - " + RedstoneExtended.MOD_ID);
                     return true;
                 })
                 .build();

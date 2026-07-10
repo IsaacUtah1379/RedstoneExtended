@@ -18,7 +18,7 @@ public class ModItems {
     public static void initialize(BalmItems items) {
         items.registerItem((identifier) -> yourItem = new Item(itemProperties(identifier)), id("your_item"));
 
-        creativeModeTab = items.registerCreativeModeTab(() -> new ItemStack(yourItem), id(YourMod.MOD_ID));
+        creativeModeTab = items.registerCreativeModeTab(() -> new ItemStack(yourItem), id(RedstoneExtended.MOD_ID));
     }
 
 }

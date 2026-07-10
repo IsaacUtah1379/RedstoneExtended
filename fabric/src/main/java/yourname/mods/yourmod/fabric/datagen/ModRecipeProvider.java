@@ -39,6 +39,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public String getName() {
-        return YourMod.MOD_ID;
+        return RedstoneExtended.MOD_ID;
     }
 }
