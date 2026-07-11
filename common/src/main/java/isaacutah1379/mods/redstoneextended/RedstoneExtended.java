@@ -5,9 +5,6 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
-import isaacutah1379.mods.redstoneextended.RedstoneExtended;
-import isaacutah1379.mods.redstoneextended.RedstoneExtendedConfig;
 import isaacutah1379.mods.redstoneextended.block.ModBlocks;
 import isaacutah1379.mods.redstoneextended.item.ModItems;
 import isaacutah1379.mods.redstoneextended.network.ModNetworking;
