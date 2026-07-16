@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "redstoneextended:block/clock_circuit_block_down",
+    "east": "redstoneextended:block/clock_circuit_block_east",
+    "north": "redstoneextended:block/clock_circuit_block_north",
+    "particle": "redstoneextended:block/clock_circuit_block_particle",
+    "south": "redstoneextended:block/clock_circuit_block_south",
+    "up": "redstoneextended:block/clock_circuit_block_up",
+    "west": "redstoneextended:block/clock_circuit_block_west"
+  }
+}

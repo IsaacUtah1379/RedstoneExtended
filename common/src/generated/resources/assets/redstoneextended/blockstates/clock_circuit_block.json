@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "redstoneextended:block/clock_circuit_block"
+    }
+  }
+}

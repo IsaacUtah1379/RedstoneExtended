@@ -26,7 +26,7 @@
       "${group}.${mod_id}.fabric.client.Fabric${mod_main}Client"
     ],
     "fabric-datagen": [
-      "${group}.${mod_id}.fabric.datagen.ModDataGenerator"
+      "${group}.${mod_id}.fabric.datagen.REDataGenerator"
     ],
     "modmenu": [
       "${group}.${mod_id}.fabric.compat.ModMenuIntegration"
