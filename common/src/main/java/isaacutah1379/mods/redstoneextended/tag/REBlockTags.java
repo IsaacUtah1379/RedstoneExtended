@@ -6,6 +6,6 @@ import net.minecraft.world.level.block.Block;
 
 import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
-public class ModBlockTags {
+public class REBlockTags {
     public static final TagKey<Block> YOUR_TAG = TagKey.create(Registries.BLOCK, id("your_tag"));
 }

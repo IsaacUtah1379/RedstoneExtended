@@ -8,7 +8,7 @@ import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 
 import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
-public class ModKeyMappings {
+public class REKeyMappings {
 
     public static ManagedKeyMapping yourKey;
 

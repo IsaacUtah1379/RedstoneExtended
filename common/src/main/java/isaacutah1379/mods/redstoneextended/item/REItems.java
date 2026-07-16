@@ -10,7 +10,7 @@ import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 import static net.blay09.mods.balm.api.item.BalmItems.itemProperties;
 import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
-public class ModItems {
+public class REItems {
     public static DeferredObject<CreativeModeTab> creativeModeTab;
 
     public static Item yourItem;

@@ -5,9 +5,9 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import isaacutah1379.mods.redstoneextended.block.ModBlocks;
-import isaacutah1379.mods.redstoneextended.item.ModItems;
-import isaacutah1379.mods.redstoneextended.network.ModNetworking;
+import isaacutah1379.mods.redstoneextended.block.REBlocks;
+import isaacutah1379.mods.redstoneextended.item.REItems;
+import isaacutah1379.mods.redstoneextended.network.RENetworking;
 
 public class RedstoneExtended {
 
@@ -17,9 +17,9 @@ public class RedstoneExtended {
 
     public static void initialize() {
         RedstoneExtendedConfig.initialize();
-        ModNetworking.initialize(Balm.getNetworking());
-        ModBlocks.initialize(Balm.getBlocks());
-        ModItems.initialize(Balm.getItems());
+        RENetworking.initialize(Balm.getNetworking());
+        REBlocks.initialize(Balm.getBlocks());
+        REItems.initialize(Balm.getItems());
     }
 
     public static ResourceLocation id(String path) {

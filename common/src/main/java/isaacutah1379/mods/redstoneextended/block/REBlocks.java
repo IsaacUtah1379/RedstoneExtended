@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.Block;
 import static net.blay09.mods.balm.api.block.BalmBlocks.blockProperties;
 import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
-public class ModBlocks {
+public class REBlocks {
 
     public static Block yourBlock;
 

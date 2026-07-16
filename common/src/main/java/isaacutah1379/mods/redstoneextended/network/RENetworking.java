@@ -7,7 +7,7 @@ import isaacutah1379.mods.redstoneextended.network.protocol.ClientboundConfigMes
 
 import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
-public class ModNetworking {
+public class RENetworking {
 
     public static void initialize(BalmNetworking networking) {
         SyncConfigMessage.register(id("config"),
