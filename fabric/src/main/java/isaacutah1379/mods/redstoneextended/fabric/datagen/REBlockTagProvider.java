@@ -10,8 +10,8 @@ import isaacutah1379.mods.redstoneextended.tag.REBlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagProvider extends FabricTagProvider<Block> {
-    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+public class REBlockTagProvider extends FabricTagProvider<Block> {
+    public REBlockTagProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
         super(output, Registries.BLOCK, registriesFuture);
     }
 

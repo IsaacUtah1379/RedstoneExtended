@@ -4,8 +4,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import isaacutah1379.mods.redstoneextended.block.REBlocks;
 
-public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
-    protected ModBlockLootTableProvider(FabricDataOutput dataOutput) {
+public class REBlockLootTableProvider extends FabricBlockLootTableProvider {
+    protected REBlockLootTableProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 

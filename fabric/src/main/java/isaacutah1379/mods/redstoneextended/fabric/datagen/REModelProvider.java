@@ -8,8 +8,8 @@ import net.minecraft.data.models.model.*;
 import isaacutah1379.mods.redstoneextended.block.REBlocks;
 import isaacutah1379.mods.redstoneextended.item.REItems;
 
-public class ModModelProvider extends FabricModelProvider {
-    public ModModelProvider(FabricDataOutput output) {
+public class REModelProvider extends FabricModelProvider {
+    public REModelProvider(FabricDataOutput output) {
         super(output);
     }
 

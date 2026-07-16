@@ -14,8 +14,8 @@ import java.util.function.Consumer;
 import static net.minecraft.data.recipes.ShapedRecipeBuilder.shaped;
 import static net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless;
 
-public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output) {
+public class RERecipeProvider extends FabricRecipeProvider {
+    public RERecipeProvider(FabricDataOutput output) {
         super(output);
     }
 
