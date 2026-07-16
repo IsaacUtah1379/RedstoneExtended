@@ -12,5 +12,6 @@ public class REDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(REBlockLootTableProvider::new);
         pack.addProvider(REModelProvider::new);
         pack.addProvider(RERecipeProvider::new);
+        pack.addProvider(REEnglishLangProvider::new);
     }
 }
