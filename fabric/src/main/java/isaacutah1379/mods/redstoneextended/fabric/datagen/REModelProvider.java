@@ -15,6 +15,7 @@ public class REModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
+        // TODO
         blockStateModelGenerator.createGenericCube(REBlocks.clockCircuitBlock);
     }
 
