@@ -9,13 +9,12 @@ import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 
 public class REBlocks {
 
-    public static Block yourBlock;
+    public static Block clockCircuitBlock;
 
     public static void initialize(BalmBlocks blocks) {
         blocks.register(
-                (identifier) -> yourBlock = new Block(blockProperties(identifier)),
+                (identifier) -> clockCircuitBlock = new ClockCircuitBlock(blockProperties(identifier)),
                 BalmItems::blockItem,
-                id("your_block"));
+                id("clock_circuit_block"));
     }
-
 }
