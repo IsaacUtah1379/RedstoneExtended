@@ -6,8 +6,8 @@ import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.world.item.Items;
 import isaacutah1379.mods.redstoneextended.RedstoneExtended;
-import isaacutah1379.mods.redstoneextended.block.ModBlocks;
-import isaacutah1379.mods.redstoneextended.item.ModItems;
+import isaacutah1379.mods.redstoneextended.block.REBlocks;
+import isaacutah1379.mods.redstoneextended.item.REItems;
 
 import java.util.function.Consumer;
 
@@ -21,7 +21,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void buildRecipes(Consumer<FinishedRecipe> exporter) {
-        shaped(RecipeCategory.DECORATIONS, ModBlocks.yourBlock)
+        shaped(RecipeCategory.DECORATIONS, REBlocks.clockCircuitBlock)
                 .pattern("DDD")
                 .pattern("SSS")
                 .pattern("DDD")
@@ -30,7 +30,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("has_diamond", has(Items.DIAMOND))
                 .save(exporter);
 
-        shapeless(RecipeCategory.DECORATIONS, ModItems.yourItem)
+        shapeless(RecipeCategory.DECORATIONS, REItems.yourItem)
                 .requires(Items.DIAMOND)
                 .requires(Items.BONE_MEAL)
                 .unlockedBy("has_bone_meal", has(Items.BONE_MEAL))

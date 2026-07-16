@@ -5,8 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
-import isaacutah1379.mods.redstoneextended.block.ModBlocks;
-import isaacutah1379.mods.redstoneextended.tag.ModBlockTags;
+import isaacutah1379.mods.redstoneextended.block.REBlocks;
+import isaacutah1379.mods.redstoneextended.tag.REBlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -18,6 +18,6 @@ public class ModBlockTagProvider extends FabricTagProvider<Block> {
     @Override
     protected void addTags(HolderLookup.Provider arg) {
 
-        getOrCreateTagBuilder(ModBlockTags.YOUR_TAG).add(ModBlocks.yourBlock);
+        getOrCreateTagBuilder(REBlockTags.YOUR_TAG).add(REBlocks.clockCircuitBlock);
     }
 }

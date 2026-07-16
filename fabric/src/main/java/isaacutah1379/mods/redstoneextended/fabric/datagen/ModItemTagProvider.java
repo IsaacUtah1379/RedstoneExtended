@@ -5,8 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
-import isaacutah1379.mods.redstoneextended.item.ModItems;
-import isaacutah1379.mods.redstoneextended.tag.ModItemTags;
+import isaacutah1379.mods.redstoneextended.item.REItems;
+import isaacutah1379.mods.redstoneextended.tag.REItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -17,6 +17,6 @@ public class ModItemTagProvider extends FabricTagProvider<Item> {
 
     @Override
     protected void addTags(HolderLookup.Provider lookup) {
-        getOrCreateTagBuilder(ModItemTags.YOUR_TAG).add(ModItems.yourItem);
+        getOrCreateTagBuilder(REItemTags.YOUR_TAG).add(REItems.yourItem);
     }
 }

@@ -2,7 +2,7 @@ package isaacutah1379.mods.redstoneextended.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import isaacutah1379.mods.redstoneextended.block.ModBlocks;
+import isaacutah1379.mods.redstoneextended.block.REBlocks;
 
 public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
     protected ModBlockLootTableProvider(FabricDataOutput dataOutput) {
@@ -11,6 +11,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        dropSelf(ModBlocks.yourBlock);
+        dropSelf(REBlocks.clockCircuitBlock);
     }
 }
