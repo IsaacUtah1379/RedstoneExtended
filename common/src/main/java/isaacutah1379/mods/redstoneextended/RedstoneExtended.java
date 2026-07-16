@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import isaacutah1379.mods.redstoneextended.block.REBlocks;
+import isaacutah1379.mods.redstoneextended.block.entity.REBlockEntities;
 import isaacutah1379.mods.redstoneextended.item.REItems;
 import isaacutah1379.mods.redstoneextended.network.RENetworking;
 
@@ -19,6 +20,7 @@ public class RedstoneExtended {
         RedstoneExtendedConfig.initialize();
         RENetworking.initialize(Balm.getNetworking());
         REBlocks.initialize(Balm.getBlocks());
+        REBlockEntities.initialize(Balm.getBlockEntities());
         REItems.initialize(Balm.getItems());
     }
 
