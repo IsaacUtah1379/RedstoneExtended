@@ -1,0 +1,6 @@
+{
+    "parent": "redstoneextended:block/clock_circuit",
+    "textures": {
+        "front": "minecraft:block/observer_back_on"
+    }
+}

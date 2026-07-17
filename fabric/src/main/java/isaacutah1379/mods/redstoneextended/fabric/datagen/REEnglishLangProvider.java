@@ -10,6 +10,6 @@ public class REEnglishLangProvider extends FabricLanguageProvider {
 
 	@Override
 	public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add("block.redstoneextended.clock_circuit_block", "Clock Circuit");
+        translationBuilder.add("block.redstoneextended.clock_circuit", "Clock Circuit");
 	}
 }

@@ -15,6 +15,6 @@ public class REBlocks {
         blocks.register(
                 (identifier) -> clockCircuitBlock = new ClockCircuitBlock(blockProperties(identifier).strength(3.5F).requiresCorrectToolForDrops()),
                 BalmItems::blockItem,
-                id("clock_circuit_block"));
+                id("clock_circuit"));
     }
 }

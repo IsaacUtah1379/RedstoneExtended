@@ -1,0 +1,50 @@
+{
+    "variants": {
+      "facing=east,powered=false": {
+        "model": "redstoneextended:block/clock_circuit",
+        "y": 90
+      },
+      "facing=east,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on",
+        "y": 90
+      },
+      "facing=north,powered=false": {
+        "model": "redstoneextended:block/clock_circuit"
+      },
+      "facing=north,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on"
+      },
+      "facing=south,powered=false": {
+        "model": "redstoneextended:block/clock_circuit",
+        "y": 180
+      },
+      "facing=south,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on",
+        "y": 180
+      },
+      "facing=west,powered=false": {
+        "model": "redstoneextended:block/clock_circuit",
+        "y": 270
+      },
+      "facing=west,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on",
+        "y": 270
+      },
+      "facing=up,powered=false": {
+        "model": "redstoneextended:block/clock_circuit",
+        "x": 270
+      },
+      "facing=up,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on",
+        "x": 270
+      },
+      "facing=down,powered=false": {
+        "model": "redstoneextended:block/clock_circuit",
+        "x": 90
+      },
+      "facing=down,powered=true": {
+        "model": "redstoneextended:block/clock_circuit_on",
+        "x": 90
+      }
+    }
+  }
