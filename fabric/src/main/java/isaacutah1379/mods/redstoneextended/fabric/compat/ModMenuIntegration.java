@@ -5,12 +5,12 @@ import com.terraformersmc.modmenu.api.ModMenuApi;
 import net.blay09.mods.balm.fabric.compat.ModMenuUtils;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import isaacutah1379.mods.redstoneextended.RedstoneExtendedConfig;
+import isaacutah1379.mods.redstoneextended.RedstoneExtended;
 
 @Environment(EnvType.CLIENT)
 public class ModMenuIntegration implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return ModMenuUtils.getConfigScreen(RedstoneExtendedConfig.class);
+        return ModMenuUtils.getConfigScreen(RedstoneExtended.MOD_ID);
     }
 }

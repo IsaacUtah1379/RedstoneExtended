@@ -10,10 +10,6 @@ import static isaacutah1379.mods.redstoneextended.RedstoneExtended.id;
 public class RENetworking {
 
     public static void initialize(BalmNetworking networking) {
-        SyncConfigMessage.register(id("config"),
-                ClientboundConfigMessage.class,
-                ClientboundConfigMessage::new,
-                RedstoneExtendedConfig.class,
-                RedstoneExtendedConfig::new);
+        
     }
 }
